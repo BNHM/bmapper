@@ -1,10 +1,7 @@
-<img src='https://raw.githubusercontent.com/BNHM/berkeleymapper/master/src/main/webapp/img/logo_medium.png' width='150' align="left">
-
 ## Introduction
-bmapper is the API for the berkeleymapper application and can be extended for use in other applications. 
+bmapper is an API for the berkeleymapper application and can be extended for use in other applications. 
 
-
-Instructions for using BerkeleyMapper are found in the <a href='https://github.com/bnhm/bmapper/wiki'>wiki</a>
+Instructions for using bmapper are found in the <a href='https://github.com/bnhm/bmapper/wiki'>wiki</a>
 
 ## Developers
 All external libraries are controlled by gradle, so to get started, you need to just:
