@@ -1,11 +1,10 @@
 <img src='https://raw.githubusercontent.com/BNHM/berkeleymapper/master/src/main/webapp/img/logo_medium.png' width='150' align="left">
 
 ## Introduction
-BerkeleyMapper 2.0 is a mapping interface for Collections (or other) Databases built on top of Google Maps.  Users can configure their mapping interface through a simple XML configuration script while mapping data from tab-delimited text files.
+bmapper is the API for the berkeleymapper application and can be extended for use in other applications. 
 
-This codebase is in active development, with many new features and interface changes from the prior version.  The BerkeleyMapper instance running at http://berkeleymapper.berkeley.edu is open to anyone mapping natural history collections data.  The code is open source, so you may wish to setup your own instance running on another server. If you have any questions or feature requests please email the developer at "jdeck -at- berkeley -dot- edu"
 
-Instructions for using BerkeleyMapper are found in the <a href='https://github.com/jdeck88/berkeleymapper/wiki'>wiki</a>
+Instructions for using BerkeleyMapper are found in the <a href='https://github.com/bnhm/bmapper/wiki'>wiki</a>
 
 ## Developers
 All external libraries are controlled by gradle, so to get started, you need to just:
@@ -15,10 +14,8 @@ git clone {this_repo}
 # install gradle if you have not done so, then...
 gradle build
 
-# source ~/.bashrc
-deployBerkeleymapper
-
-
+# source ~/.profile (or ~/.bashrc)
+deployBmapper
 ```         
 
 The gradle build process will create a WAR file called ```dist/berkeleymapper.war```

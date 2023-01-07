@@ -22,5 +22,5 @@ dependencies {
 }
 
 war {
-	archiveName '../../dist/berkeleymapper.war'
+	archiveName '../../dist/bmapper.war'
 }
